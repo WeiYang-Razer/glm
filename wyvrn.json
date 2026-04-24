@@ -1,0 +1,22 @@
+{
+  "name": "glm",
+  "version": "1.0.0.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of glm",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DGLM_TEST_ENABLE=OFF",
+      "-DGLM_BUILD_LIBRARY=OFF"
+    ],
+    "installDir": "install"
+  }
+}
