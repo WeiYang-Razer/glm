@@ -60,3 +60,10 @@ build*
 /CMakeSettings.json
 .DS_Store
 *.swp
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
