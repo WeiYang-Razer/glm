@@ -1,10 +1,19 @@
 {
   "name": "glm",
-  "version": "1.0.0.0",
+  "version": "1.0.0.2",
   "schemaVersion": 2,
   "kind": "HeaderOnlyLib",
   "description": "TODO: one-line description of glm",
   "dependencies": {},
+
+  "compatibility": {
+    "compiler":         "exact",
+    "arch":             "any",
+    "compiler.version": "any",
+    "compiler.cppstd":  "lte",
+    "compiler.runtime": "any"
+  },
+
   "build": {
     "system": "cmake",
     "configs": [
@@ -17,6 +26,7 @@
       "-DGLM_TEST_ENABLE=OFF",
       "-DGLM_BUILD_LIBRARY=OFF"
     ],
+      
     "installDir": "install"
   }
 }

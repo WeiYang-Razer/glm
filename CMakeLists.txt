@@ -246,6 +246,7 @@ if (GLM_BUILD_INSTALL)
 	write_basic_package_version_file(
 		"${CMAKE_CURRENT_BINARY_DIR}/glmConfigVersion.cmake"
 		COMPATIBILITY AnyNewerVersion
+		ARCH_INDEPENDENT
 	)
 	install(
 		FILES "${CMAKE_CURRENT_BINARY_DIR}/glmConfigVersion.cmake"
